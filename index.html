@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <table width="60"  >
+                <tr>
+                    <td colspan="3"><h2>Step 1: Personal Information</h2></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="First and last name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="example@email.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="tel" id="phone" name="phone" placeholder="+1234567890"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h2>Step 2: Delivery Address</h2></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><textarea id="address" name="address" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="postcode">Postcode:</label></td>
+                    <td><input type="text" id="postcode" name="postcode"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country:</label></td>
+                    <td><input type="text" id="country" name="country"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h2>Step 3: Card Details</h2></td>
+                </tr>
+                <tr>
+                    <td><label for="card-type">Card Type:</label></td>
+                    <td>
+                        <input type="radio" id="visa" name="card-type" value="visa"> Visa
+                        <input type="radio" id="amex" name="card-type" value="amex"> AmEx
+                        <input type="radio" id="mastercard" name="card-type" value="mastercard"> Mastercard
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="card-number">Card Number:</label></td>
+                    <td><input type="text" id="card-number" name="card-number"></td>
+                </tr>
+                <tr>
+                    <td><label for="security-code">Security Code:</label></td>
+                    <td><input type="text" id="security-code" name="security-code"></td>
+                </tr>
+                <tr>
+                    <td><label for="name-on-card">Name on Card:</label></td>
+                    <td><input type="text" id="name-on-card" name="name-on-card" placeholder="Excact name on the card"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        
+                        <button type="submit">BUY IT!</button>
+
+                    
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+   
+
+</body>
+</html>
